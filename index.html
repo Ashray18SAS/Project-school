@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.gstatic.com">
+
+   
+</head>
+
+<body>
+      <nav class="navbar-inverse" style="position: sticky;z-index: 9999;">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+               <li>
+                    <a href="#Welcome">Home</a>
+                </li>
+                <li>
+                    <a href="#grid">Grid View</a>
+                </li>
+                <li>
+                    <a href="#slide">Slide View</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="Welcome">
+            <img id="img1" src="https://media.giphy.com/media/1jqeDPuuHqFdm/giphy.gif" class="img-responsive">
+        </section>
+        <section id="grid">
+            <h2>Grid Gallery</h2>
+            <div class="row1">
+                
+                
+                
+                
+                
+                
+                
+                <img class="img0" src="https://tse3.mm.bing.net/th?id=OIP.dRpvGwxxqjEuxAqEnIFqZgHaK-&pid=Api&P=0&w=300&h=300">
+                <img class="img0" src="https://images.indianexpress.com/2018/04/avengers-iron-man.jpg">
+                <img class="img0" src="https://coed.com/wp-content/uploads/2019/10/shutterstock_1078948385.jpg">
+                <img class="img0" src="https://tse1.mm.bing.net/th?id=OIP.vVGCFMsBbx0WyhR6kl3ewQHaES&pid=Api&P=0&w=281&h=163">
+            </div>
+        </section>
+        <section id="slide">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-2="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-2="1"></li>
+                    <li data-target="#myCarousel" data-slide-2="2"></li>
+                    <li data-target="#myCarousel" data-slide-2="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.dRpvGwxxqjEuxAqEnIFqZgHaK-&pid=Api&P=0&w=300&h=300" width="80%" height="100%" alt="Thor">
+                        <div class="carousel-caption">
+                            <h3>Thor</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://images.indianexpress.com/2018/04/avengers-iron-man.jpg" width="80%" height="100%" alt="Iron Man">
+                        <div class="carousel-caption">
+                            <h3>Iron Man</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://coed.com/wp-content/uploads/2019/10/shutterstock_1078948385.jpg" width="100%" alt="Captain America">
+                        <div class="carousel-caption">
+                            <h3>Captain America</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.vVGCFMsBbx0WyhR6kl3ewQHaES&pid=Api&P=0&w=281&h=163" width="100%" alt="Black Panther">
+                        <div class="carousel-caption">
+                            <h3>Black Panther</h3>
+                        </div>
+                    </div>
+                    <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
